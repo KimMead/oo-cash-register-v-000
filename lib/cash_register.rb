@@ -15,7 +15,7 @@ class CashRegister
   end
 
   def item
-    self.items.uniq
+    self.items
   end
 
   def apply_discount
