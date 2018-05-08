@@ -17,6 +17,7 @@ class CashRegister
   def items
     self.items do |items|
       return items
+    end
   end
 
 
